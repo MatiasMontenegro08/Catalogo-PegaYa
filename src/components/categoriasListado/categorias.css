@@ -1,0 +1,13 @@
+.section-categorias {
+    background-color: var(--secondary-color);
+    padding: 20px;
+    border-radius: 8px;
+    color: var(--primary-text-color);
+}
+
+.categoria-item {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+}

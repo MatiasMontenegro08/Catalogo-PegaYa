@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "titulo": "Messi GOAT",
+        "categoria": "Messi",
+        "imagen": "...",
+        "codigo": "STK001"
+    },
+    {
+        "id": 2,
+        "titulo": "Moto GP",
+        "categoria": "Motos",
+        "imagen": "...",
+        "codigo": "STK002"
+    },
+    {
+        "id": 3,
+        "titulo": "Gato curioso",
+        "categoria": "Gatos",
+        "imagen": "...",
+        "codigo": "STK003"
+    },
+    {
+        "id": 4,
+        "titulo": "Capibara chill",
+        "categoria": "Capibara",
+        "imagen": "...",
+        "codigo": "STK004"
+    },
+    {
+        "id": 5,
+        "titulo": "Mateando",
+        "categoria": "Mate",
+        "imagen": "...",
+        "codigo": "STK005"
+    },
+    {
+        "id": 6,
+        "titulo": "Homero Pensando",
+        "categoria": "Los Simpsons",
+        "imagen": "...",
+        "codigo": "STK006"
+    },
+    {
+        "id": 7,
+        "titulo": "Stitch feliz",
+        "categoria": "Stitch",
+        "imagen": "...",
+        "codigo": "STK007"
+    },
+    {
+        "id": 8,
+        "titulo": "Argentina Campeón",
+        "categoria": "Seleccion",
+        "imagen": "...",
+        "codigo": "STK008"
+    },
+    {
+        "id": 9,
+        "titulo": "Pelota y bandera",
+        "categoria": "Futbol Argentino",
+        "imagen": "...",
+        "codigo": "STK009"
+    },
+    {
+        "id": 10,
+        "titulo": "Naruto corriendo",
+        "categoria": "Anime",
+        "imagen": "...",
+        "codigo": "STK010"
+    },
+    {
+        "id": 11,
+        "titulo": "Handball Power",
+        "categoria": "Handball",
+        "imagen": "...",
+        "codigo": "STK011"
+    },
+    {
+        "id": 12,
+        "titulo": "Perro divertido",
+        "categoria": "Perros",
+        "imagen": "...",
+        "codigo": "STK012"
+    },
+    {
+        "id": 13,
+        "titulo": "Gato dormilón",
+        "categoria": "Gatos",
+        "imagen": "...",
+        "codigo": "STK013"
+    },
+    {
+        "id": 14,
+        "titulo": "Capibara en el agua",
+        "categoria": "Capibara",
+        "imagen": "...",
+        "codigo": "STK014"
+    },
+    {
+        "id": 15,
+        "titulo": "Gato gamer",
+        "categoria": "Animales",
+        "imagen": "...",
+        "codigo": "STK015"
+    },
+    {
+        "id": 16,
+        "titulo": "Gamepad retro",
+        "categoria": "Gaming",
+        "imagen": "...",
+        "codigo": "STK016"
+    },
+    {
+        "id": 17,
+        "titulo": "Perro skater",
+        "categoria": "Animales",
+        "imagen": "...",
+        "codigo": "STK017"
+    },
+    {
+        "id": 18,
+        "titulo": "Copa del Mundo",
+        "categoria": "Seleccion",
+        "imagen": "...",
+        "codigo": "STK018"
+    },
+    {
+        "id": 19,
+        "titulo": "Moto clásica",
+        "categoria": "Motos",
+        "imagen": "...",
+        "codigo": "STK019"
+    },
+    {
+        "id": 20,
+        "titulo": "Homero bailando",
+        "categoria": "Los Simpsons",
+        "imagen": "...",
+        "codigo": "STK020"
+    }
+]
