@@ -2,7 +2,7 @@ import React from 'react'
 import categoriasData from '../../database/categorias.json'
 import './categorias.css'
 
-const ContainerCategorias = ({ onSelectCategoria }) => {
+const ContainerCategorias = ({ onSelectCategoria, categoriaSeleccionada }) => {
     return (
         <section className='section-categorias'>
             <h2>Categorías</h2>
@@ -13,6 +13,7 @@ const ContainerCategorias = ({ onSelectCategoria }) => {
                             key={index}
                             onClick={() => onSelectCategoria(categoria)}
                             style={{ cursor: 'pointer' }}
+                            className={categoriaSeleccionada === categoria ? 'selected' : ''}
                         >
                             {categoria}
                         </li>

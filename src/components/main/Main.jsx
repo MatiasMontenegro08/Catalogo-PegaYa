@@ -15,7 +15,7 @@ const Main = () => {
     return (
         <main className='main'>
             <InfoSection />
-            <ContainerCategorias onSelectCategoria={onSelectCategoria} />
+            <ContainerCategorias onSelectCategoria={onSelectCategoria} categoriaSeleccionada={categoriaSeleccionada} />
             <Catalogo categoriaSeleccionada={categoriaSeleccionada}/>
             
             {/* <section className='section3'>

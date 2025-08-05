@@ -16,4 +16,10 @@
     color: var(--primary-text-color);
     padding: 10px;
     border-radius: 8px;
+
+    & a {
+        color: var(--primary-text-color);
+        text-decoration: none;
+        padding: 10px 0;
+    }
 }

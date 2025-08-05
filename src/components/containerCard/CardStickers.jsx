@@ -9,7 +9,7 @@ const CardStickers = ({sticker}) => {
             </div>
             <div className="card-detalle">
                 <h3>{sticker.titulo}</h3>
-                <p>{sticker.codigo}</p>
+                <p>{sticker.codigo} - $ 700</p>
             </div>
         </div>
     )

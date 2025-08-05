@@ -3,6 +3,10 @@
     padding: 20px;
     border-radius: 8px;
     color: var(--primary-text-color);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
 }
 
 .categoria-item {
@@ -10,4 +14,11 @@
     flex-wrap: wrap;
     gap: 20px;
     list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.selected {
+    text-decoration: underline;
+    color: yellow;
 }
