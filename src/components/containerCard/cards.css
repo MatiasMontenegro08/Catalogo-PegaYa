@@ -1,16 +1,18 @@
-.container-card{
+.container-card {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Dos columnas de igual ancho */
-    gap: 16px; /* Espacio opcional entre las cards */
+    grid-template-columns: repeat(2, 1fr);
+    /* Dos columnas de igual ancho */
+    gap: 16px;
+    /* Espacio opcional entre las cards */
 }
 
-.card{
+.card {
     width: 100%;
     height: auto;
     color: var(--primary-text-color);
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,8 +32,10 @@
     & img {
         width: 100%;
         height: auto;
-        object-fit: cover; /* Mantiene la proporción de la imagen */
-        filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.3)); /* Sombra suave */
+        object-fit: cover;
+        /* Mantiene la proporción de la imagen */
+        filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.3));
+        /* Sombra suave */
     }
 }
 
@@ -59,7 +63,7 @@
     }
 }
 
-.button{
+.button {
     width: 100%;
     background-color: var(--primary-color);
 
@@ -67,7 +71,7 @@
         background-color: #34a1ea;
     }
 
-    & button{
+    & button {
         background-color: transparent;
         color: white;
         border: none;
@@ -79,8 +83,11 @@
 
 .modal-overlay {
     position: fixed;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background: rgba(0,0,0,0.7);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -94,4 +101,20 @@
     background: transparent;
     padding: 0;
     border-radius: 8px;
+}
+
+.close-modal-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    z-index: 2;
+    margin-right: 20px;
 }

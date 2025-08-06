@@ -18,12 +18,19 @@ const CardStickers = ({ sticker }) => {
                     <p>{sticker.codigo} - $ {sticker.precio}</p>
                 </div>
                 <div className="button">
-                    <button onClick={() => {}}>🛒</button>
+                    <button onClick={() => {}}>Agregar al carrito</button>
                 </div>
             </div>
             {showModal && (
                 <div className="modal-overlay" onClick={handleCloseModal}>
-                    <div className="modal-content" onClick={e => e.stopPropagation()}>
+                    <div className="modal-content" onClick={e => e.stopPropagation()} style={{ position: 'relative' }}>
+                        <button
+                            className="close-modal-btn"
+                            onClick={handleCloseModal}
+                            aria-label="Cerrar imagen"
+                        >
+                            &#10005;
+                        </button>
                         <img src={imgDefault} alt={sticker.titulo} style={{ width: '80vw', maxWidth: '500px' }} />
                     </div>
                 </div>
