@@ -4,139 +4,179 @@
         "titulo": "Messi GOAT",
         "categoria": "Messi",
         "imagen": "...",
-        "codigo": "STK001"
+        "codigo": "STK001",
+        "precio": 700,
+        "stock": 12
     },
     {
         "id": 2,
         "titulo": "Moto GP",
         "categoria": "Motos",
         "imagen": "...",
-        "codigo": "STK002"
+        "codigo": "STK002",
+        "precio": 700,
+        "stock": 8
     },
     {
         "id": 3,
         "titulo": "Gato curioso",
         "categoria": "Gatos",
         "imagen": "...",
-        "codigo": "STK003"
+        "codigo": "STK003",
+        "precio": 700,
+        "stock": 15
     },
     {
         "id": 4,
         "titulo": "Capibara chill",
         "categoria": "Capibara",
         "imagen": "...",
-        "codigo": "STK004"
+        "codigo": "STK004",
+        "precio": 700,
+        "stock": 7
     },
     {
         "id": 5,
         "titulo": "Mateando",
         "categoria": "Mate",
         "imagen": "...",
-        "codigo": "STK005"
+        "codigo": "STK005",
+        "precio": 700,
+        "stock": 10
     },
     {
         "id": 6,
         "titulo": "Homero Pensando",
         "categoria": "Los Simpsons",
         "imagen": "...",
-        "codigo": "STK006"
+        "codigo": "STK006",
+        "precio": 700,
+        "stock": 13
     },
     {
         "id": 7,
         "titulo": "Stitch feliz",
         "categoria": "Stitch",
         "imagen": "...",
-        "codigo": "STK007"
+        "codigo": "STK007",
+        "precio": 700,
+        "stock": 6
     },
     {
         "id": 8,
         "titulo": "Argentina Campeón",
         "categoria": "Seleccion",
         "imagen": "...",
-        "codigo": "STK008"
+        "codigo": "STK008",
+        "precio": 700,
+        "stock": 11
     },
     {
         "id": 9,
         "titulo": "Pelota y bandera",
         "categoria": "Futbol Argentino",
         "imagen": "...",
-        "codigo": "STK009"
+        "codigo": "STK009",
+        "precio": 700,
+        "stock": 9
     },
     {
         "id": 10,
         "titulo": "Naruto corriendo",
         "categoria": "Anime",
         "imagen": "...",
-        "codigo": "STK010"
+        "codigo": "STK010",
+        "precio": 700,
+        "stock": 14
     },
     {
         "id": 11,
         "titulo": "Handball Power",
         "categoria": "Handball",
         "imagen": "...",
-        "codigo": "STK011"
+        "codigo": "STK011",
+        "precio": 700,
+        "stock": 5
     },
     {
         "id": 12,
         "titulo": "Perro divertido",
         "categoria": "Perros",
         "imagen": "...",
-        "codigo": "STK012"
+        "codigo": "STK012",
+        "precio": 700,
+        "stock": 8
     },
     {
         "id": 13,
         "titulo": "Gato dormilón",
         "categoria": "Gatos",
         "imagen": "...",
-        "codigo": "STK013"
+        "codigo": "STK013",
+        "precio": 700,
+        "stock": 10
     },
     {
         "id": 14,
         "titulo": "Capibara en el agua",
         "categoria": "Capibara",
         "imagen": "...",
-        "codigo": "STK014"
+        "codigo": "STK014",
+        "precio": 700,
+        "stock": 15
     },
     {
         "id": 15,
         "titulo": "Gato gamer",
         "categoria": "Animales",
         "imagen": "...",
-        "codigo": "STK015"
+        "codigo": "STK015",
+        "precio": 700,
+        "stock": 9
     },
     {
         "id": 16,
         "titulo": "Gamepad retro",
         "categoria": "Gaming",
         "imagen": "...",
-        "codigo": "STK016"
+        "codigo": "STK016",
+        "precio": 700,
+        "stock": 7
     },
     {
         "id": 17,
         "titulo": "Perro skater",
         "categoria": "Animales",
         "imagen": "...",
-        "codigo": "STK017"
+        "codigo": "STK017",
+        "precio": 700,
+        "stock": 13
     },
     {
         "id": 18,
         "titulo": "Copa del Mundo",
         "categoria": "Seleccion",
         "imagen": "...",
-        "codigo": "STK018"
+        "codigo": "STK018",
+        "precio": 700,
+        "stock": 6
     },
     {
         "id": 19,
         "titulo": "Moto clásica",
         "categoria": "Motos",
         "imagen": "...",
-        "codigo": "STK019"
+        "codigo": "STK019",
+        "precio": 700,
+        "stock": 12
     },
     {
         "id": 20,
         "titulo": "Homero bailando",
         "categoria": "Los Simpsons",
         "imagen": "...",
-        "codigo": "STK020"
+        "codigo": "STK020",
+        "precio": 700,
+        "stock": 10
     }
 ]
