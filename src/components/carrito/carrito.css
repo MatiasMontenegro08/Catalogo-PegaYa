@@ -1,0 +1,14 @@
+.container-carrito {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.carrito-items {
+    max-height: 200px;
+    overflow-y: auto;
+}

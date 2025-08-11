@@ -1,0 +1,62 @@
+.btn-carrito {
+    width: 65px;
+    height: 65px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    color: var(--primary-text-color);
+    font-size: 1.8rem;
+    padding: 10px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.8);
+    border: none;
+}
+
+.drawer-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.drawer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    padding: 1rem;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    max-height: 90vh;
+    overflow-y: auto;
+    animation: slideUp 0.3s ease-out;
+}
+
+.btn-cerrar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    z-index: 2;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}

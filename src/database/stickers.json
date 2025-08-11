@@ -178,5 +178,725 @@
         "codigo": "STK020",
         "precio": 700,
         "stock": 10
+    },
+    {
+        "id": 21,
+        "titulo": "Stitch en la playa",
+        "categoria": "Stitch",
+        "imagen": "...",
+        "codigo": "STK021",
+        "precio": 700,
+        "stock": 8
+    },
+    {
+        "id": 22,
+        "titulo": "Simpsons Familia",
+        "categoria": "Los Simpsons",
+        "imagen": "...",
+        "codigo": "STK022",
+        "precio": 700,
+        "stock": 14
+    },
+    {
+        "id": 23,
+        "titulo": "Messi celebrando",
+        "categoria": "Messi",
+        "imagen": "...",
+        "codigo": "STK023",
+        "precio": 700,
+        "stock": 11
+    },
+    {
+        "id": 24,
+        "titulo": "Capibara con sombrero",
+        "categoria": "Capibara",
+        "imagen": "...",
+        "codigo": "STK024",
+        "precio": 700,
+        "stock": 7
+    },
+    {
+        "id": 25,
+        "titulo": "Gato travieso",
+        "categoria": "Gatos",
+        "imagen": "...",
+        "codigo": "STK025",
+        "precio": 700,
+        "stock": 13
+    },
+    {
+        "id": 26,
+        "titulo": "Moto de carreras",
+        "categoria": "Motos",
+        "imagen": "...",
+        "codigo": "STK026",
+        "precio": 700,
+        "stock": 9
+    },
+    {
+        "id": 27,
+        "titulo": "Homero en la playa",
+        "categoria": "Los Simpsons",
+        "imagen": "...",
+        "codigo": "STK027",
+        "precio": 700,
+        "stock": 10
+    },
+    {
+        "id": 28,
+        "titulo": "Stitch y el mar",
+        "categoria": "Stitch",
+        "imagen": "...",
+        "codigo": "STK028",
+        "precio": 700,
+        "stock": 6
+    },
+    {
+        "id": 29,
+        "titulo": "Messi y la copa",
+        "categoria": "Messi",
+        "imagen": "...",
+        "codigo": "STK029",
+        "precio": 700,
+        "stock": 11
+    },
+    {
+        "id": 30,
+        "titulo": "Capibara durmiendo",
+        "categoria": "Capibara",
+        "imagen": "...",
+        "codigo": "STK030",
+        "precio": 700,
+        "stock": 8
+    },
+    {
+        "id": 31,
+        "titulo": "Gato en caja",
+        "categoria": "Gatos",
+        "imagen": "...",
+        "codigo": "STK031",
+        "precio": 700,
+        "stock": 14
+    },
+    {
+        "id": 32,
+        "titulo": "Moto chopper",
+        "categoria": "Motos",
+        "imagen": "...",
+        "codigo": "STK032",
+        "precio": 700,
+        "stock": 7
+    },
+    {
+        "id": 33,
+        "titulo": "Homero con guitarra",
+        "categoria": "Los Simpsons",
+        "imagen": "...",
+        "codigo": "STK033",
+        "precio": 700,
+        "stock": 9
+    },
+    {
+        "id": 34,
+        "titulo": "Stitch y Lilo",
+        "categoria": "Stitch",
+        "imagen": "...",
+        "codigo": "STK034",
+        "precio": 700,
+        "stock": 10
+    },
+    {
+        "id": 35,
+        "titulo": "Messi en acción",
+        "categoria": "Messi",
+        "imagen": "...",
+        "codigo": "STK035",
+        "precio": 700,
+        "stock": 12
+    },
+    {
+        "id": 36,
+        "titulo": "Capibara comiendo",
+        "categoria": "Capibara",
+        "imagen": "...",
+        "codigo": "STK036",
+        "precio": 700,
+        "stock": 11
+    },
+    {
+        "id": 37,
+        "titulo": "Gato en el jardín",
+        "categoria": "Gatos",
+        "imagen": "...",
+        "codigo": "STK037",
+        "precio": 700,
+        "stock": 13
+    },
+    {
+        "id": 38,
+        "titulo": "Moto deportiva",
+        "categoria": "Motos",
+        "imagen": "...",
+        "codigo": "STK038",
+        "precio": 700,
+        "stock": 9
+    },
+    {
+        "id": 39,
+        "titulo": "Homero y Bart",
+        "categoria": "Los Simpsons",
+        "imagen": "...",
+        "codigo": "STK039",
+        "precio": 700,
+        "stock": 10
+    },
+    {
+        "id": 40,
+        "titulo": "Stitch y el surf",
+        "categoria": "Stitch",
+        "imagen": "...",
+        "codigo": "STK040",
+        "precio": 700,
+        "stock": 8
+    },
+    {
+        "id": 41,
+        "titulo": "Messi en el entrenamiento",
+        "categoria": "Messi",
+        "imagen": "...",
+        "codigo": "STK041",
+        "precio": 700,
+        "stock": 12
+    },
+    {
+        "id": 42,
+        "titulo": "Capibara jugando",
+        "categoria": "Capibara",
+        "imagen": "...",
+        "codigo": "STK042",
+        "precio": 700,
+        "stock": 11
+    },
+    {
+        "id": 43,
+        "titulo": "Gato en la ventana",
+        "categoria": "Gatos",
+        "imagen": "...",
+        "codigo": "STK043",
+        "precio": 700,
+        "stock": 14
+    },
+    {
+        "id": 44,
+        "titulo": "Moto antigua",
+        "categoria": "Motos",
+        "imagen": "...",
+        "codigo": "STK044",
+        "precio": 700,
+        "stock": 7
+    },
+    {
+        "id": 45,
+        "titulo": "Homero y Lisa",
+        "categoria": "Los Simpsons",
+        "imagen": "...",
+        "codigo": "STK045",
+        "precio": 700,
+        "stock": 9
+    },
+    {
+        "id": 46,
+        "titulo": "Stitch y el hula hoop",
+        "categoria": "Stitch",
+        "imagen": "...",
+        "codigo": "STK046",
+        "precio": 700,
+        "stock": 10
+    },
+    {
+        "id": 47,
+        "titulo": "Messi en el mundial",
+        "categoria": "Messi",
+        "imagen": "...",
+        "codigo": "STK047",
+        "precio": 700,
+        "stock": 12
+    },
+    {
+        "id": 48,
+        "titulo": "Capibara en la nieve",
+        "categoria": "Capibara",
+        "imagen": "...",
+        "codigo": "STK048",
+        "precio": 700,
+        "stock": 11
+    },
+    {
+        "id": 49,
+        "titulo": "Gato en el sofá",
+        "categoria": "Gatos",
+        "imagen": "...",
+        "codigo": "STK049",
+        "precio": 700,
+        "stock": 13
+    },
+    {
+        "id": 50,
+        "titulo": "Moto eléctrica",
+        "categoria": "Motos",
+        "imagen": "...",
+        "codigo": "STK050",
+        "precio": 700,
+        "stock": 9
+    },
+    {
+        "id": 51,
+        "titulo": "Homero y Maggie",
+        "categoria": "Los Simpsons",
+        "imagen": "...",
+        "codigo": "STK051",
+        "precio": 700,
+        "stock": 10
+    },
+    {
+        "id": 52,
+        "titulo": "Stitch y el ukulele",
+        "categoria": "Stitch",
+        "imagen": "...",
+        "codigo": "STK052",
+        "precio": 700,
+        "stock": 8
+    },
+    {
+        "id": 53,
+        "titulo": "Messi en la final",
+        "categoria": "Messi",
+        "imagen": "...",
+        "codigo": "STK053",
+        "precio": 700,
+        "stock": 11
+    },
+    {
+        "id": 54,
+        "titulo": "Capibara en el parque",
+        "categoria": "Capibara",
+        "imagen": "...",
+        "codigo": "STK054",
+        "precio": 700,
+        "stock": 7
+    },
+    {
+        "id": 55,
+        "titulo": "Gato en la cama",
+        "categoria": "Gatos",
+        "imagen": "...",
+        "codigo": "STK055",
+        "precio": 700,
+        "stock": 14
+    },
+    {
+        "id": 56,
+        "titulo": "Moto de policía",
+        "categoria": "Motos",
+        "imagen": "...",
+        "codigo": "STK056",
+        "precio": 700,
+        "stock": 6
+    },
+    {
+        "id": 57,
+        "titulo": "Homero y el perro",
+        "categoria": "Los Simpsons",
+        "imagen": "...",
+        "codigo": "STK057",
+        "precio": 700,
+        "stock": 10
+    },
+    {
+        "id": 58,
+        "titulo": "Stitch y el tambor",
+        "categoria": "Stitch",
+        "imagen": "...",
+        "codigo": "STK058",
+        "precio": 700,
+        "stock": 9
+    },
+    {
+        "id": 59,
+        "titulo": "Messi en el bar",
+        "categoria": "Messi",
+        "imagen": "...",
+        "codigo": "STK059",
+        "precio": 700,
+        "stock": 12
+    },
+    {
+        "id": 60,
+        "titulo": "Capibara en el cine",
+        "categoria": "Capibara",
+        "imagen": "...",
+        "codigo": "STK060",
+        "precio": 700,
+        "stock": 11
+    },
+    {
+        "id": 61,
+        "titulo": "Gato en el coche",
+        "categoria": "Gatos",
+        "imagen": "...",
+        "codigo": "STK061",
+        "precio": 700,
+        "stock": 13
+    },
+    {
+        "id": 62,
+        "titulo": "Moto de bomberos",
+        "categoria": "Motos",
+        "imagen": "...",
+        "codigo": "STK062",
+        "precio": 700,
+        "stock": 8
+    },
+    {
+        "id": 63,
+        "titulo": "Homero y el gato",
+        "categoria": "Los Simpsons",
+        "imagen": "...",
+        "codigo": "STK063",
+        "precio": 700,
+        "stock": 10
+    },
+    {
+        "id": 64,
+        "titulo": "Stitch y el pez",
+        "categoria": "Stitch",
+        "imagen": "...",
+        "codigo": "STK064",
+        "precio": 700,
+        "stock": 7
+    },
+    {
+        "id": 65,
+        "titulo": "Messi en el gimnasio",
+        "categoria": "Messi",
+        "imagen": "...",
+        "codigo": "STK065",
+        "precio": 700,
+        "stock": 12
+    },
+    {
+        "id": 66,
+        "titulo": "Capibara en el zoológico",
+        "categoria": "Capibara",
+        "imagen": "...",
+        "codigo": "STK066",
+        "precio": 700,
+        "stock": 11
+    },
+    {
+        "id": 67,
+        "titulo": "Gato en el balcón",
+        "categoria": "Gatos",
+        "imagen": "...",
+        "codigo": "STK067",
+        "precio": 700,
+        "stock": 14
+    },
+    {
+        "id": 68,
+        "titulo": "Moto de carga",
+        "categoria": "Motos",
+        "imagen": "...",
+        "codigo": "STK068",
+        "precio": 700,
+        "stock": 9
+    },
+    {
+        "id": 69,
+        "titulo": "Homero y el saxofón",
+        "categoria": "Los Simpsons",
+        "imagen": "...",
+        "codigo": "STK069",
+        "precio": 700,
+        "stock": 10
+    },
+    {
+        "id": 70,
+        "titulo": "Stitch y el acordeón",
+        "categoria": "Stitch",
+        "imagen": "...",
+        "codigo": "STK070",
+        "precio": 700,
+        "stock": 8
+    },
+    {
+        "id": 71,
+        "titulo": "Messi en el avión",
+        "categoria": "Messi",
+        "imagen": "...",
+        "codigo": "STK071",
+        "precio": 700,
+        "stock": 12
+    },
+    {
+        "id": 72,
+        "titulo": "Capibara en el tren",
+        "categoria": "Capibara",
+        "imagen": "...",
+        "codigo": "STK072",
+        "precio": 700,
+        "stock": 11
+    },
+    {
+        "id": 73,
+        "titulo": "Gato en el armario",
+        "categoria": "Gatos",
+        "imagen": "...",
+        "codigo": "STK073",
+        "precio": 700,
+        "stock": 13
+    },
+    {
+        "id": 74,
+        "titulo": "Moto de nieve",
+        "categoria": "Motos",
+        "imagen": "...",
+        "codigo": "STK074",
+        "precio": 700,
+        "stock": 8
+    },
+    {
+        "id": 75,
+        "titulo": "Homero y el violín",
+        "categoria": "Los Simpsons",
+        "imagen": "...",
+        "codigo": "STK075",
+        "precio": 700,
+        "stock": 10
+    },
+    {
+        "id": 76,
+        "titulo": "Stitch y el clarinete",
+        "categoria": "Stitch",
+        "imagen": "...",
+        "codigo": "STK076",
+        "precio": 700,
+        "stock": 9
+    },
+    {
+        "id": 77,
+        "titulo": "Messi en el podio",
+        "categoria": "Messi",
+        "imagen": "...",
+        "codigo": "STK077",
+        "precio": 700,
+        "stock": 12
+    },
+    {
+        "id": 78,
+        "titulo": "Capibara en el campo",
+        "categoria": "Capibara",
+        "imagen": "...",
+        "codigo": "STK078",
+        "precio": 700,
+        "stock": 11
+    },
+    {
+        "id": 79,
+        "titulo": "Gato en el cochecito",
+        "categoria": "Gatos",
+        "imagen": "...",
+        "codigo": "STK079",
+        "precio": 700,
+        "stock": 14
+    },
+    {
+        "id": 80,
+        "titulo": "Moto de juguete",
+        "categoria": "Motos",
+        "imagen": "...",
+        "codigo": "STK080",
+        "precio": 700,
+        "stock": 9
+    },
+    {
+        "id": 81,
+        "titulo": "Homero y el tambor",
+        "categoria": "Los Simpsons",
+        "imagen": "...",
+        "codigo": "STK081",
+        "precio": 700,
+        "stock": 10
+    },
+    {
+        "id": 82,
+        "titulo": "Stitch y el xilófono",
+        "categoria": "Stitch",
+        "imagen": "...",
+        "codigo": "STK082",
+        "precio": 700,
+        "stock": 8
+    },
+    {
+        "id": 83,
+        "titulo": "Messi en el coche",
+        "categoria": "Messi",
+        "imagen": "...",
+        "codigo": "STK083",
+        "precio": 700,
+        "stock": 12
+    },
+    {
+        "id": 84,
+        "titulo": "Capibara en el sofá",
+        "categoria": "Capibara",
+        "imagen": "...",
+        "codigo": "STK084",
+        "precio": 700,
+        "stock": 11
+    },
+    {
+        "id": 85,
+        "titulo": "Gato en la bolsa",
+        "categoria": "Gatos",
+        "imagen": "...",
+        "codigo": "STK085",
+        "precio": 700,
+        "stock": 13
+    },
+    {
+        "id": 86,
+        "titulo": "Moto de carreras 2",
+        "categoria": "Motos",
+        "imagen": "...",
+        "codigo": "STK086",
+        "precio": 700,
+        "stock": 9
+    },
+    {
+        "id": 87,
+        "titulo": "Homero y el saxofón",
+        "categoria": "Los Simpsons",
+        "imagen": "...",
+        "codigo": "STK087",
+        "precio": 700,
+        "stock": 10
+    },
+    {
+        "id": 88,
+        "titulo": "Stitch y el acordeón",
+        "categoria": "Stitch",
+        "imagen": "...",
+        "codigo": "STK088",
+        "precio": 700,
+        "stock": 8
+    },
+    {
+        "id": 89,
+        "titulo": "Messi en el tren",
+        "categoria": "Messi",
+        "imagen": "...",
+        "codigo": "STK089",
+        "precio": 700,
+        "stock": 12
+    },
+    {
+        "id": 90,
+        "titulo": "Capibara en el avión",
+        "categoria": "Capibara",
+        "imagen": "...",
+        "codigo": "STK090",
+        "precio": 700,
+        "stock": 11
+    },
+    {
+        "id": 91,
+        "titulo": "Gato en el armario",
+        "categoria": "Gatos",
+        "imagen": "...",
+        "codigo": "STK091",
+        "precio": 700,
+        "stock": 14
+    },
+    {
+        "id": 92,
+        "titulo": "Moto de carga 2",
+        "categoria": "Motos",
+        "imagen": "...",
+        "codigo": "STK092",
+        "precio": 700,
+        "stock": 8
+    },
+    {
+        "id": 93,
+        "titulo": "Homero y el violonchelo",
+        "categoria": "Los Simpsons",
+        "imagen": "...",
+        "codigo": "STK093",
+        "precio": 700,
+        "stock": 10
+    },
+    {
+        "id": 94,
+        "titulo": "Stitch y el didgeridoo",
+        "categoria": "Stitch",
+        "imagen": "...",
+        "codigo": "STK094",
+        "precio": 700,
+        "stock": 9
+    },
+    {
+        "id": 95,
+        "titulo": "Messi en el barco",
+        "categoria": "Messi",
+        "imagen": "...",
+        "codigo": "STK095",
+        "precio": 700,
+        "stock": 12
+    },
+    {
+        "id": 96,
+        "titulo": "Capibara en el tren",
+        "categoria": "Capibara",
+        "imagen": "...",
+        "codigo": "STK096",
+        "precio": 700,
+        "stock": 11
+    },
+    {
+        "id": 97,
+        "titulo": "Gato en el inodoro",
+        "categoria": "Gatos",
+        "imagen": "...",
+        "codigo": "STK097",
+        "precio": 700,
+        "stock": 13
+    },
+    {
+        "id": 98,
+        "titulo": "Moto de nieve 2",
+        "categoria": "Motos",
+        "imagen": "...",
+        "codigo": "STK098",
+        "precio": 700,
+        "stock": 9
+    },
+    {
+        "id": 99,
+        "titulo": "Homero y el armónica",
+        "categoria": "Los Simpsons",
+        "imagen": "...",
+        "codigo": "STK099",
+        "precio": 700,
+        "stock": 10
+    },
+    {
+        "id": 100,
+        "titulo": "Stitch y el marimba",
+        "categoria": "Stitch",
+        "imagen": "...",
+        "codigo": "STK100",
+        "precio": 700,
+        "stock": 8
     }
 ]
