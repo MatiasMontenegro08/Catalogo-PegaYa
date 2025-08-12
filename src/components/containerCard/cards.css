@@ -68,7 +68,7 @@
     background-color: var(--primary-color);
 
     &:hover {
-        background-color: #34a1ea;
+        background-color: var(--hover-color);
     }
 
     & button {

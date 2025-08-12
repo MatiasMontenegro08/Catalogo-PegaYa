@@ -1,29 +1,22 @@
 import React from 'react'
-import Modal from '../modal/Modal'
 import './carrito.css'
 
-const Carrito = () => {
+const Carrito = ({stickers}) => {
     return (
-        <div className='container-carrito'>
+        <div className='drawner'>
             <div className="carrito-header">
                 <h2>Mi Pedido</h2>
                 <p>Copiar y enviar por chat de instagram.</p>
             </div>
             <div className="carrito-items">
-                <p>Lista de stickers seleccionados</p>
-                <p>Lista de stickers seleccionados</p>
-                <p>Lista de stickers seleccionados</p>
-                <p>Lista de stickers seleccionados</p>
-                <p>Lista de stickers seleccionados</p>
-                <p>Lista de stickers seleccionados</p>
-                <p>Lista de stickers seleccionados</p>
-                <p>Lista de stickers seleccionados</p>
-                <p>Lista de stickers seleccionados</p>
-                <p>Lista de stickers seleccionados</p>
-                <p>Lista de stickers seleccionados</p>
-                <p>Lista de stickers seleccionados</p>
+                <ul>
+                    {stickers.map((item, index) => (
+                        <li key={index}>{item}</li>
+                    ))}
+                </ul>
             </div>
-            <button className='btn-copiar'>boton de copiado</button>
+            <p>Total: $ 100</p>
+            <button className='btn-copiar'>Copiar pedido</button>
         </div>
     )
 }
