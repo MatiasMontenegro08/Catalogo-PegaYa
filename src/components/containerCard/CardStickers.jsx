@@ -1,24 +1,30 @@
-import React, { useState } from 'react'
-import imgDefault from '../../assets/PegaYa 6x6.png'
+import React, { useState, useContext } from 'react'
+import { CartContext } from '../../context/CartContext'
 
 const CardStickers = ({ sticker }) => {
-    const [showModal, setShowModal] = useState(false)
+    const [showModal, setShowModal] = useState(false);
+    const { agregarSticker } = useContext(CartContext);
 
-    const handleImgClick = () => setShowModal(true)
+    const handleImgClick = () => setShowModal(true);
     const handleCloseModal = () => setShowModal(false)
+
+    const agregarAlCarrito = () => {
+        const stickerCarrito = {...sticker, cantidad: 1};
+        agregarSticker(stickerCarrito);
+    }
 
     return (
         <>
             <div className="card">
                 <div className="card-img" onClick={handleImgClick} style={{ cursor: 'pointer' }}>
-                    <img src={imgDefault} alt={sticker.titulo} />
+                    <img src={sticker.imagenUrl} alt={sticker.titulo} />
                 </div>
                 <div className="card-detalle">
                     <h3>{sticker.titulo}</h3>
                     <p>{sticker.codigo} - $ {sticker.precio}</p>
                 </div>
                 <div className="button">
-                    <button onClick={() => {}}>Agregar al carrito</button>
+                    <button onClick={() => agregarAlCarrito()}>Agregar al carrito</button>
                 </div>
             </div>
             {showModal && (
@@ -31,7 +37,7 @@ const CardStickers = ({ sticker }) => {
                         >
                             &#10005;
                         </button>
-                        <img src={imgDefault} alt={sticker.titulo} style={{ width: '80vw', maxWidth: '500px' }} />
+                        <img src={sticker.imagenUrl} alt={sticker.titulo} style={{ width: '80vw', maxWidth: '500px' }} />
                     </div>
                 </div>
             )}

@@ -1,22 +1,19 @@
-import React from 'react'
+import React, {useState, useContext} from 'react'
+import { CartContext } from '../../context/CartContext'
+import CarritoHeader from './CarritoHeader';
+import CarritoItems from './CarritoItems';
+import CarritoTotales from './CarritoTotales';
+import CarritoBotones from './CarritoBotones';
 import './carrito.css'
 
-const Carrito = ({stickers}) => {
+const Carrito = () => {
+    const { carrito, borrarSticker, vaciarCarrito, cantidadTotal, precioTotal } = useContext(CartContext);
     return (
         <div className='drawner'>
-            <div className="carrito-header">
-                <h2>Mi Pedido</h2>
-                <p>Copiar y enviar por chat de instagram.</p>
-            </div>
-            <div className="carrito-items">
-                <ul>
-                    {stickers.map((item, index) => (
-                        <li key={index}>{item}</li>
-                    ))}
-                </ul>
-            </div>
-            <p>Total: $ 100</p>
-            <button className='btn-copiar'>Copiar pedido</button>
+            <CarritoHeader />
+            <CarritoItems carrito={carrito} />
+            <CarritoTotales precioTotal={precioTotal} />
+            <CarritoBotones vaciarCarrito={vaciarCarrito} />
         </div>
     )
 }

@@ -1,11 +1,11 @@
 import { useState } from "react";
-import './drawercarrito.css';
 import Carrito from "../carrito/Carrito";
+import './drawercarrito.css';
 
 export default function DrawerCarrito() {
     const [isOpen, setIsOpen] = useState(false);
 
-    const stickers = Array.from({ length: 30 }, (_, i) => `Sticker ${i + 1} - Cantidad: 2`);
+    // const stickers = Array.from({ length: 30 }, (_, i) => `Sticker ${i + 1} - Cantidad: 2`);
 
     return (
         <div>
@@ -14,7 +14,7 @@ export default function DrawerCarrito() {
             {isOpen && (
                 <div className="drawer-overlay" onClick={() => setIsOpen(false)}>
                     <div className="drawer" onClick={(e) => e.stopPropagation()}>
-                        <Carrito stickers={stickers} />
+                        <Carrito/>
                         <button className="btn-cerrar" onClick={() => setIsOpen(false)}>x</button>
                     </div>
                 </div>
