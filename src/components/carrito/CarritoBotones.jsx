@@ -1,9 +1,9 @@
 import React from 'react'
 
-const CarritoBotones = ({vaciarCarrito}) => {
+const CarritoBotones = ({vaciarCarrito, copiarPedidoEIrAInstagram}) => {
     return (
         <div className='carrito-botones'>
-            <button className='btn-copiar'>Copiar pedido</button>
+            <button className='btn-copiar' onClick={copiarPedidoEIrAInstagram}>Copiar pedido</button>
             <button className='btn-copiar' onClick={() => vaciarCarrito()}>Vaciar carrito</button>
         </div>
     )
