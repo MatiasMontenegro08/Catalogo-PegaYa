@@ -4,6 +4,11 @@
     gap: 10px;
 }
 
+.contactoDev{
+    p{
+        margin: 2px;
+    }
+}
 .redesContacto{
     a{
         margin: 5px;

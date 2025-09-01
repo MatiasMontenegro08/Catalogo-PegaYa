@@ -18,9 +18,9 @@ const Main = () => {
 
     return (
         <main className='main'>
-            <InfoSection />
             <ContainerCategorias onSelectCategoria={onSelectCategoria} categoriaSeleccionada={categoriaSeleccionada} />
             <Catalogo categoriaSeleccionada={categoriaSeleccionada} />
+            <InfoSection />
             {carrito.length > 0 && <DrawerCarrito/>}
         </main>
     )

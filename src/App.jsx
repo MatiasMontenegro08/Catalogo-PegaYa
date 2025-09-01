@@ -3,6 +3,8 @@ import Footer from './components/footer/Footer'
 import Header from './components/header/Header'
 import Main from './components/main/Main'
 import { CartProvider } from './context/CartContext'
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -11,6 +13,7 @@ function App() {
     <CartProvider>
       <div className="App">
         <Header />
+        <ToastContainer position="top-right" autoClose={1500} hideProgressBar={false} newestOnTop={false} closeOnClick rtl={false} pauseOnFocusLoss draggable pauseOnHover theme="light" limit={1}/>
         <Main />
         <Footer />
       </div>

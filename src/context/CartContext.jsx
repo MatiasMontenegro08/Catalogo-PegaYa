@@ -1,4 +1,5 @@
 import { createContext, useState } from "react";
+import { toast } from 'react-toastify';
 
 const CartContext = createContext();
 
@@ -9,19 +10,20 @@ const CartProvider = ({ children }) => {
         const condicion = estaEnElCarrito(stickerNuevo.id);
 
         if (condicion) {
-            alert("El sticker ya esta en el carrito"); // Cambiar por un toast
+            notify(toast.warn, 'El sticker ya se encuentra en el carrito');
         } else {
             setCarrito([...carrito, stickerNuevo]);
+            notify(toast.success, 'Sticker agregado al carrito');
         }
     }
 
     const cambiarCantidad = (id, nuevaCantidad) => {
-    setCarrito(carrito =>
-        carrito.map(item =>
-            item.id === id ? { ...item, cantidad: nuevaCantidad } : item
-        )
-    );
-};
+        setCarrito(carrito =>
+            carrito.map(item =>
+                item.id === id ? { ...item, cantidad: nuevaCantidad } : item
+            )
+        );
+    };
 
     const estaEnElCarrito = (idSticker) => {
         const condicional = carrito.some((stickerCarrito) => stickerCarrito.id === idSticker);
@@ -48,23 +50,31 @@ const CartProvider = ({ children }) => {
     }
 
     const copiarPedidoEIrAInstagram = () => {
-    // 1. Generar el texto del pedido
-    let textoPedido = "¡Hola! Quiero pedir estos stickers:\n\n";
-    carrito.forEach(item => {
-        textoPedido += `- ${item.titulo} x${item.cantidad}\n`;
-    });
-    textoPedido += `\nTotal: $${precioTotal()}`;
-
-    // 2. Copiar al portapapeles
-    navigator.clipboard.writeText(textoPedido)
-        .then(() => {
-            // 3. Redirigir a Instagram (puedemos cambiar el link por el chat directo también)
-            window.open("https://www.instagram.com/pegaya.ar/", "_blank");
-        })
-        .catch(() => {
-            alert("No se pudo copiar el pedido al portapapeles.");
+        // 1. Generar el texto del pedido
+        let textoPedido = "¡Hola! Quiero pedir estos stickers:\n\n";
+        carrito.forEach(item => {
+            textoPedido += `- ${item.titulo} x${item.cantidad}\n`;
         });
-};
+        textoPedido += `\nTotal: $${precioTotal()}`;
+
+        // 2. Copiar al portapapeles
+        navigator.clipboard.writeText(textoPedido)
+            .then(() => {
+                // 3. Redirigir a Instagram (puedemos cambiar el link por el chat directo también)
+                window.open("https://www.instagram.com/pegaya.ar/", "_blank");
+            })
+            .catch(() => {
+                notify(toast.warning, "No se pudo copiar el pedido al portapapeles.");
+            });
+    };
+
+    const notify = (tipo, mensaje) => {
+        const toastId = "mi-toast-unico";
+
+        if (!toast.isActive(toastId)) {
+            tipo(mensaje, { toastId: toastId });
+        }
+    };
 
     return (
         <CartContext.Provider value={{ carrito, setCarrito, agregarSticker, cantidadTotal, precioTotal, borrarSticker, vaciarCarrito, cambiarCantidad, copiarPedidoEIrAInstagram }}>
