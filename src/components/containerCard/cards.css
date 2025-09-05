@@ -12,7 +12,7 @@
     height: auto;
     color: var(--primary-text-color);
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -67,7 +67,8 @@
 
 .button {
     width: 100%;
-    background-color: var(--primary-color);
+    background-color: var(--color-amarillo);
+    color: var(--color-celeste-oscuro);
 
     &:hover {
         background-color: var(--hover-color);
@@ -75,7 +76,6 @@
 
     & button {
         background-color: transparent;
-        color: white;
         border: none;
         border-radius: 10px;
         cursor: pointer;

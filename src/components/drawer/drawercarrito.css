@@ -1,7 +1,7 @@
 .btn-carrito {
     width: 65px;
     height: 65px;
-    background-color: var(--primary-color);
+    background-color: var(--color-celeste);
     border-radius: 50%;
     color: var(--primary-text-color);
     font-size: 1.8rem;
@@ -18,7 +18,7 @@
     inset: 0;
     background: rgba(0, 0, 0, 0.5);
     z-index: 1000;
-    color: var(--secondary-color);
+    color: var(--color-celeste-oscuro);
 }
 
 .drawer {

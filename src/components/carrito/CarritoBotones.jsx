@@ -3,8 +3,8 @@ import React from 'react'
 const CarritoBotones = ({vaciarCarrito, copiarPedidoEIrAInstagram}) => {
     return (
         <div className='carrito-botones'>
-            <button className='btn-copiar' onClick={copiarPedidoEIrAInstagram}>Copiar pedido</button>
-            <button className='btn-copiar' onClick={() => vaciarCarrito()}>Vaciar carrito</button>
+            <button className='boton amarillo' onClick={copiarPedidoEIrAInstagram} aria-label='Copiar pedido'>Copiar pedido</button>
+            <button className='boton' onClick={() => vaciarCarrito()} aria-label='Vaciar carrito'>Vaciar carrito</button>
         </div>
     )
 }

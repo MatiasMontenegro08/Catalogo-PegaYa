@@ -13,8 +13,8 @@
     overflow-y: auto;
 }
 
-.btn-copiar {
-    background-color: var(--primary-color);
+.boton {
+    background-color: var(--color-celeste);
     color: var(--primary-text-color);
     border: none;
     border-radius: 5px;
@@ -22,10 +22,11 @@
     font-size: 1.2rem;
     cursor: pointer;
     margin-top: 10px;
+}
 
-    &:hover {
-        background-color: var(--hover-color);
-    }
+.amarillo {
+    background-color: var(--color-amarillo);
+    color: var(--color-celeste-oscuro);
 }
 
 .carrito-botones {

@@ -7,7 +7,7 @@ import './cards.css';
 
 const ContainerCard = ({ categoriaSeleccionada }) => {
     const [paginaActual, setPaginaActual] = useState(1);
-    const itemsPorPagina = 6;
+    const itemsPorPagina = 20;
     const [stickers, setStickers] = useState([]);
 
     const getStickers = async () => {

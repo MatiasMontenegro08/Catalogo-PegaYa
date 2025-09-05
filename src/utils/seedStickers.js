@@ -111,6 +111,106 @@ const stickers = [
         "precio": 700,
         "stock": 23,
         "titulo": "Inosuke Postura"
+    },
+    {
+        "activo": true,
+        "categoriaId": "Anime",
+        "codigo": "",
+        "descripcion": "Goku en la nube voladora",
+        "imagenUrl": "https://res.cloudinary.com/dvettmkur/image/upload/v1756757074/1_eys4cu.svg",
+        "precio": 700,
+        "stock": 23,
+        "titulo": "Goku Nube"
+    },
+    {
+        "activo": true,
+        "categoriaId": "Anime",
+        "codigo": "",
+        "descripcion": "Goku Super Saiyan 3",
+        "imagenUrl": "https://res.cloudinary.com/dvettmkur/image/upload/v1756757074/4_wnhmoa.svg",
+        "precio": 700,
+        "stock": 23,
+        "titulo": "Goku SSJ3"
+    },
+    {
+        "activo": true,
+        "categoriaId": "Anime",
+        "codigo": "",
+        "descripcion": "Maestro Roshi con gafas de sol",
+        "imagenUrl": "https://res.cloudinary.com/dvettmkur/image/upload/v1756757074/2_jtqpqz.svg",
+        "precio": 700,
+        "stock": 23,
+        "titulo": "Roshi Cool"
+    },
+    {
+        "activo": true,
+        "categoriaId": "Anime",
+        "codigo": "",
+        "descripcion": "Goku en pose heroica",
+        "imagenUrl": "https://res.cloudinary.com/dvettmkur/image/upload/v1756757075/3_uqcmel.svg",
+        "precio": 700,
+        "stock": 23,
+        "titulo": "Goku"
+    },
+    {
+        "activo": true,
+        "categoriaId": "Anime",
+        "codigo": "",
+        "descripcion": "Vegeta espiando",
+        "imagenUrl": "https://res.cloudinary.com/dvettmkur/image/upload/v1756757075/5_yjmzhs.svg",
+        "precio": 700,
+        "stock": 23,
+        "titulo": "Vegeta Espía"
+    },
+    {
+        "activo": true,
+        "categoriaId": "Anime",
+        "codigo": "",
+        "descripcion": "Goku muerde a majin boo",
+        "imagenUrl": "https://res.cloudinary.com/dvettmkur/image/upload/v1756757075/6_dzlupe.svg",
+        "precio": 700,
+        "stock": 23,
+        "titulo": "Goku vs Boo"
+    },
+    {
+        "activo": true,
+        "categoriaId": "Anime",
+        "codigo": "",
+        "descripcion": "Logo de Dragon Ball Z",
+        "imagenUrl": "https://res.cloudinary.com/dvettmkur/image/upload/v1756757076/7_kfmzyl.svg",
+        "precio": 700,
+        "stock": 23,
+        "titulo": "DBZ Logo"
+    },
+    {
+        "activo": true,
+        "categoriaId": "Anime",
+        "codigo": "",
+        "descripcion": "Roshi, Krilin y Goku entrenando",
+        "imagenUrl": "https://res.cloudinary.com/dvettmkur/image/upload/v1756757077/8_ij6ome.svg",
+        "precio": 700,
+        "stock": 23,
+        "titulo": "Maestro y alumnos"
+    },
+    {
+        "activo": true,
+        "categoriaId": "Anime",
+        "codigo": "",
+        "descripcion": "Goku haciendo el kamehameha en super saiyan blue",
+        "imagenUrl": "https://res.cloudinary.com/dvettmkur/image/upload/v1756757077/10_y5j5yj.svg",
+        "precio": 700,
+        "stock": 23,
+        "titulo": "Goku Kamehameha"
+    },
+    {
+        "activo": true,
+        "categoriaId": "Anime",
+        "codigo": "",
+        "descripcion": "Boo ataque a los titanes",
+        "imagenUrl": "https://res.cloudinary.com/dvettmkur/image/upload/v1756757078/9_p6lcli.svg",
+        "precio": 700,
+        "stock": 23,
+        "titulo": "Boo Titanes"
     }
 ]
 

@@ -24,7 +24,7 @@ const CardStickers = ({ sticker }) => {
                     <p>{sticker.codigo} - $ {sticker.precio}</p>
                 </div>
                 <div className="button">
-                    <button onClick={() => agregarAlCarrito()}>Agregar al carrito</button>
+                    <button onClick={() => agregarAlCarrito()} aria-label='Agregar al carrito'>Agregar al carrito</button>
                 </div>
             </div>
             {showModal && (

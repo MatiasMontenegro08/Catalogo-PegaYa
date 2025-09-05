@@ -1,5 +1,5 @@
 .section-categorias {
-    background-color: var(--secondary-color);
+    background-color: var(--color-celeste);
     padding: 20px;
     border-radius: 8px;
     color: var(--primary-text-color);
@@ -19,6 +19,9 @@
 }
 
 .selected {
-    text-decoration: underline;
-    color: yellow;
+    background-color: #ffde59;
+    padding: 3px 10px;
+    border-radius: 15px;
+    color: var(--text-color-negro);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }

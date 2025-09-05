@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 :root {
     /* Paleta de colores */
-    --primary-color: #126298; /* Celeste */
-    --secondary-color: #0d466d; /* Celeste oscuro */
+    --color-celeste: #126298; /* Celeste */
+    --color-celeste-oscuro: #0d466d; /* Celeste oscuro */
+    --color-celeste-muy-oscuro: #082c45; /* Celeste muy oscuro */
     --background-main: #d9d9d9; /* Gris claro */
     --primary-text-color: white;
-    --secondary-text-color: black;
+    --text-color-negro: rgb(20, 20, 20);
+    --color-amarillo: #ffde59; /* Amarillo */
     --hover-color: #34a1ea; /* Celeste claro */
 
     /* Tipografía */
     --font-family: 'Roboto', sans-serif;
-    --font-size-title: 16px;
-    --font-size-subtitle: 14px;
-    --font-size-text: 12px;
+    --font-size-title: 1.4rem;
+    --font-size-subtitle: 1.1rem;
+    --font-size-text: 1rem;
 }

@@ -7,12 +7,12 @@ const ItemList = ({ item, cantidad, aumentarCantidad, disminuirCantidad, onBorra
         </div>
         <div className='item-list-btn'>
             <div className="btn-cantidades">
-                {cantidad > 1 && <button onClick={disminuirCantidad}>-</button>}
+                {cantidad > 1 && <button onClick={disminuirCantidad} aria-label='Disminuir cantidad'>-</button>}
                 <p className='p-cantidad'>{cantidad}</p>
-                <button onClick={aumentarCantidad}>+</button>
+                <button onClick={aumentarCantidad} aria-label='Aumentar cantidad'>+</button>
             </div>
             <div>
-                <button className='btn-borrar' onClick={onBorrar}>X</button>
+                <button className='btn-borrar' onClick={onBorrar} aria-label='Borrar sticker'>X</button>
             </div>
         </div>
     </div>
