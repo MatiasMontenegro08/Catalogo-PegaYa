@@ -129,7 +129,7 @@
     }
 }
 
-@media (min-width: 400px) and (max-width: 620px) {
+@media (min-width: 350px) and (max-width: 620px) {
     .container-card {
         grid-template-columns: repeat(2, 1fr) !important;
         gap: 10px;
