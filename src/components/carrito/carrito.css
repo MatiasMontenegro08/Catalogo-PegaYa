@@ -1,3 +1,24 @@
+/*
+ * carrito.css
+ *
+ * Estilos para los componentes del carrito de compras en la aplicación Catalogo-PegaYa.
+ *
+ * - .container-carrito: Contenedor principal del carrito, con disposición en columna y centrado.
+ * - .carrito-items: Contenedor de la lista de productos, con altura máxima y scroll vertical.
+ * - .boton: Estilo base para los botones del carrito (color celeste, bordes redondeados).
+ * - .amarillo: Variante de botón con fondo amarillo y texto celeste oscuro.
+ * - .carrito-botones: Contenedor de los botones de acción, distribuidos con espacio y separación.
+ * - .item-list: Fila de producto en el carrito, alineada y con espacio entre elementos.
+ * - .btn-cantidades: Contenedor de los botones de cantidad (+/-) y el número, alineados y con separación.
+ * - .btn-cantidades button, .btn-cantidades .p-cantidad: Estilos para los botones y el número de cantidad, con altura fija y alineación centrada.
+ * - .btn-borrar: Botón para eliminar un producto del carrito, sin fondo ni borde.
+ * - .item-list-btn: Contenedor para los botones dentro de la fila de producto, alineados y con separación.
+ *
+ * Notas:
+ * - Usa variables CSS para colores.
+ * - El selector anidado "& p" en .item-list es sintaxis SASS/SCSS. En CSS puro, reemplázalo por ".item-list p".
+ */
+
 .container-carrito {
     width: 100%;
     height: auto;
@@ -40,10 +61,10 @@
     align-items: center;
     justify-content: space-between;
     gap: 16px;
+}
 
-    & p {
-        margin: 0;
-    }
+.item-list p {
+    margin: 0;
 }
 
 .btn-cantidades {
@@ -78,7 +99,7 @@
     cursor: pointer;
 }
 
-.item-list-btn{
+.item-list-btn {
     display: flex;
     align-items: center;
     gap: 10px;

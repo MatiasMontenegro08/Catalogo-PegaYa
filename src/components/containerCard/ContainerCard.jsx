@@ -1,3 +1,20 @@
+/**
+ * ContainerCard.jsx
+ *
+ * Componente que muestra un listado de stickers en formato de cards, con paginación y filtrado por categoría.
+ *
+ * Props:
+ * - categoriaSeleccionada (string): Categoría actual seleccionada para filtrar los stickers.
+ *
+ * Funcionalidad:
+ * - Obtiene los stickers desde Firebase Firestore.
+ * - Filtra los stickers según la categoría seleccionada.
+ * - Implementa paginación para mostrar un número limitado de stickers por página.
+ * - Muestra los stickers usando el componente CardStickers.
+ * - Utiliza react-bootstrap/Pagination para la paginación.
+ * - Aplica estilos desde 'cards.css'.
+ */
+
 import React, { useState, useEffect } from 'react';
 import CardStickers from './CardStickers';
 import Pagination from 'react-bootstrap/Pagination';
@@ -10,6 +27,7 @@ const ContainerCard = ({ categoriaSeleccionada }) => {
     const itemsPorPagina = 20;
     const [stickers, setStickers] = useState([]);
 
+    // Obtiene los stickers desde Firestore
     const getStickers = async () => {
         try {
             const stickersRef = collection(database, 'stickers');
@@ -33,7 +51,6 @@ const ContainerCard = ({ categoriaSeleccionada }) => {
     const stickersFiltrados = categoriaSeleccionada === 'Todas'
         ? stickers
         : stickers.filter(sticker => sticker.categoriaId === categoriaSeleccionada);
-
 
     // Calcular cuántas páginas hay
     const totalPaginas = Math.ceil(stickersFiltrados.length / itemsPorPagina);

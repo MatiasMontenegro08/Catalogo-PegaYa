@@ -1,3 +1,16 @@
+/*
+ * footer.css
+ *
+ * Estilos para el componente de pie de página (Footer) de la aplicación Catalogo-PegaYa.
+ *
+ * - .footer: Contenedor principal del footer, usa Flexbox para organizar el contenido en columna y centrarlo.
+ * - .contactoDev: Contiene la información del desarrollador y el año. Los párrafos tienen un margen reducido.
+ * - .redesContacto: Contiene los enlaces a redes sociales y portfolio, con espacio entre los íconos.
+ *
+ * Notas:
+ * - Usa variables CSS para colores.
+ */
+
 .footer {
     display: flex;
     flex-direction: column;
@@ -8,13 +21,10 @@
     padding: 20px;
 }
 
-.contactoDev{
-    p{
-        margin: 2px;
-    }
+.contactoDev p {
+    margin: 2px;
 }
-.redesContacto{
-    a{
-        margin: 5px;
-    }
+
+.redesContacto a {
+    margin: 5px;
 }

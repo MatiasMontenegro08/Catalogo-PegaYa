@@ -1,3 +1,13 @@
+/*
+ * categorias.css
+ *
+ * Estilos para el componente ContainerCategorias, que muestra el listado de categorías del catálogo.
+ *
+ * - .section-categorias: Contenedor principal, con fondo celeste, bordes redondeados y espaciado.
+ * - .categoria-item: Lista horizontal y flexible de categorías, sin viñetas y con separación entre ítems.
+ * - .selected: Estilo especial para la categoría seleccionada, con fondo amarillo y sombra.
+ */
+
 .section-categorias {
     background-color: var(--color-celeste);
     padding: 20px;

@@ -1,3 +1,13 @@
+/*
+ * header.css
+ *
+ * Estilos para el componente de cabecera (Header) de la aplicación Catalogo-PegaYa.
+ *
+ * - El header utiliza Flexbox para centrar el logo y el título horizontal y verticalmente.
+ * - Aplica un color de fondo celeste y color de texto principal usando variables CSS.
+ * - El logo tiene un tamaño fijo de 50x50 píxeles.
+ * - Usa grid-area: header para integrarse con el layout principal de la app.
+ */
 header {
     background-color: var(--color-celeste);
     color: var(--primary-text-color);

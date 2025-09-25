@@ -1,3 +1,14 @@
+/**
+ * CarritoHeader.jsx
+ *
+ * Componente que muestra el encabezado del carrito.
+ *
+ * - Incluye el título y, opcionalmente, un subtítulo o ícono.
+ * - Aplica estilos desde 'carrito.css'.
+ *
+ * No recibe props.
+ */
+
 import React from 'react'
 import './carrito.css'
 

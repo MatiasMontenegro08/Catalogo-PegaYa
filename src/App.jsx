@@ -1,3 +1,12 @@
+/**
+ * Componente principal de la aplicación SPA "Catalogo-PegaYa".
+ *
+ * - Envuelve toda la aplicación con el CartProvider para manejar el estado global del carrito.
+ * - Incluye el Header, Main (contenido principal) y Footer.
+ * - Integra react-toastify para mostrar notificaciones (ToastContainer).
+ * - Importa estilos globales y de Bootstrap.
+ */
+
 import './App.css'
 import Footer from './components/footer/Footer'
 import Header from './components/header/Header'
@@ -8,7 +17,6 @@ import 'react-toastify/dist/ReactToastify.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
-
   return (
     <CartProvider>
       <div className="App">

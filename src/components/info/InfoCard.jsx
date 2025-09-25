@@ -1,3 +1,28 @@
+/**
+ * InfoCard.jsx
+ *
+ * Componente reutilizable para mostrar una tarjeta informativa.
+ *
+ * Props:
+ * - title (string): Título de la tarjeta.
+ * - description (string, opcional): Descripción o texto informativo.
+ * - link (string, opcional): URL a la que se redirige al hacer clic (se muestra como enlace).
+ * - icon (ReactNode, opcional): Ícono a mostrar junto al enlace.
+ *
+ * Uso:
+ * <InfoCard
+ *   title="Pedidos"
+ *   description="Elegí tus diseños y envía tu pedido por Instagram."
+ * />
+ *
+ * <InfoCard
+ *   title="Contacto"
+ *   description="Visita nuestro Instagram para consultas."
+ *   link="https://www.instagram.com/pegaya.ar/"
+ *   icon={<FaInstagram />}
+ * />
+ */
+
 import React from 'react'
 import './info.css';
 

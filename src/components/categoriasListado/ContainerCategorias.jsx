@@ -1,3 +1,19 @@
+/**
+ * ContainerCategorias.jsx
+ *
+ * Componente que muestra el listado de categorías para filtrar los stickers del catálogo.
+ *
+ * - Obtiene las categorías desde Firebase Firestore al montar el componente.
+ * - Ordena las categorías alfabéticamente, dejando "Todas" siempre en primer lugar.
+ * - Permite seleccionar una categoría haciendo clic en ella, llamando a la función onSelectCategoria.
+ * - Resalta la categoría seleccionada.
+ * - Aplica estilos desde 'categorias.css'.
+ *
+ * Props:
+ * - onSelectCategoria (function): Función que se ejecuta al seleccionar una categoría.
+ * - categoriaSeleccionada (string): Nombre de la categoría actualmente seleccionada.
+ */
+
 import React, { useState } from 'react'
 import { getDocs, collection } from 'firebase/firestore';
 import database from '../../database/database.js';

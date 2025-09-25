@@ -1,3 +1,18 @@
+/**
+ * CardStickers.jsx
+ *
+ * Componente que muestra la información de un sticker en formato de tarjeta.
+ * Permite ver la imagen en grande en un modal y agregar el sticker al carrito.
+ *
+ * Props:
+ * - sticker (object): Objeto con los datos del sticker (titulo, imagenUrl, codigo, precio, etc.).
+ *
+ * Funcionalidad:
+ * - Al hacer clic en la imagen, se abre un modal con la imagen ampliada.
+ * - Al hacer clic en el botón, agrega el sticker al carrito usando el contexto global.
+ * - Aplica estilos desde 'cards.css'.
+ */
+
 import React, { useState, useContext } from 'react'
 import { CartContext } from '../../context/CartContext'
 
@@ -21,7 +36,7 @@ const CardStickers = ({ sticker }) => {
                 </div>
                 <div className="card-detalle">
                     <h3>{sticker.titulo}</h3>
-                    <p>{sticker.codigo} - $ {sticker.precio}</p>
+                    <p>{sticker.codigo} $ {sticker.precio}</p>
                 </div>
                 <div className="button">
                     <button onClick={() => agregarAlCarrito()} aria-label='Agregar al carrito'>Agregar al carrito</button>

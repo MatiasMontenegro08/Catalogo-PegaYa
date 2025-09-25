@@ -1,9 +1,22 @@
 @import './style/variables.css';
 
+/* 
+ * App.css
+ * 
+ * Estilos globales para la aplicación Catalogo-PegaYa.
+ * - Importa variables CSS globales.
+ * - Resetea márgenes y paddings, y define box-sizing.
+ * - Define la estructura principal de la app usando CSS Grid.
+ * - Centra y da espaciado a los elementos principales con Flexbox.
+ */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
     font-size: 16px;
 }
 
@@ -34,9 +47,4 @@
     justify-content: center;
     gap: 20px;
     padding: 20px;
-}
-.cards {
-    width: 150px;
-    height: 200px;
-    background-color: coral;
 }

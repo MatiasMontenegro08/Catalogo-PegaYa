@@ -1,3 +1,16 @@
+/**
+ * CarritoItems.jsx
+ *
+ * Componente que muestra la lista de productos agregados al carrito.
+ *
+ * - Renderiza un ItemList por cada producto en el carrito.
+ * - Recibe el array de productos como prop.
+ * - Aplica estilos desde 'carrito.css'.
+ *
+ * Props:
+ * - items (array): Array de productos en el carrito.
+ */
+
 import React from 'react'
 import ItemList from './ItemList'
 

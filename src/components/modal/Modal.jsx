@@ -1,3 +1,21 @@
+/**
+ * Modal.jsx
+ *
+ * Componente reutilizable para mostrar contenido en un modal (ventana emergente).
+ *
+ * Props:
+ * - isOpen (boolean): Si es true, el modal se muestra; si es false, no se renderiza nada.
+ * - onClose (function): Función que se ejecuta al hacer clic en el botón de cerrar.
+ * - children (ReactNode): Contenido a mostrar dentro del modal.
+ *
+ * Uso:
+ * <Modal isOpen={modalAbierto} onClose={cerrarModal}>
+ *   <ContenidoDelModal />
+ * </Modal>
+ *
+ * El modal incluye un overlay oscuro y un botón de cierre accesible.
+ */
+
 import React from 'react'
 import './modal.css';
 

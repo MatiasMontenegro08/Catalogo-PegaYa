@@ -1,5 +1,22 @@
 import React, { useState } from 'react'
 
+/**
+ * ItemList.jsx
+ *
+ * Componente que muestra la información y controles de cantidad para un producto del carrito.
+ *
+ * - Muestra el nombre, cantidad, precio y botones para aumentar/disminuir cantidad o eliminar el producto.
+ * - Recibe funciones de manejo de cantidad y eliminación como props.
+ * - Aplica estilos desde 'carrito.css'.
+ *
+ * Props:
+ * - item (object): Producto del carrito.
+ * - cantidad (number): Cantidad actual del producto.
+ * - aumentarCantidad (function): Función para aumentar la cantidad.
+ * - disminuirCantidad (function): Función para disminuir la cantidad.
+ * - onBorrar (function): Función para eliminar el producto del carrito.
+ */
+
 const ItemList = ({ item, cantidad, aumentarCantidad, disminuirCantidad, onBorrar }) => (
     <div className='item-list'>
         <div>

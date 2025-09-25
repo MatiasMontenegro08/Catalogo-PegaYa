@@ -1,3 +1,12 @@
+/*
+ * catalogo.css
+ *
+ * Estilos para la sección principal del catálogo de stickers.
+ *
+ * - .catalogo: Contenedor principal del catálogo, con ancho completo, color de texto celeste oscuro,
+ *   texto centrado y fuente en negrita.
+ */
+
 .catalogo {
     width: 100%;
     color: var(--color-celeste-oscuro);

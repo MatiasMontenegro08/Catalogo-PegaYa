@@ -2,6 +2,14 @@ import React from 'react'
 import logo from '../../assets/PegaYalogoweb.svg'
 import './header.css';
 
+/**
+ * Header.jsx
+ *
+ * Componente de cabecera de la aplicación.
+ * Muestra el logo y el título principal del catálogo.
+ * No recibe props.
+ */
+
 const Header = () => {
     return (
         <header className='header'>
