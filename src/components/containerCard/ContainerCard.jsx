@@ -20,32 +20,38 @@ import CardStickers from './CardStickers';
 import Pagination from 'react-bootstrap/Pagination';
 import { collection, getDocs } from 'firebase/firestore';
 import database from '../../database/database.js';
+import StickerSkeleton from '../skeleton/StickerSkeleton';
 import './cards.css';
 
 const ContainerCard = ({ categoriaSeleccionada }) => {
     const [paginaActual, setPaginaActual] = useState(1);
     const itemsPorPagina = 20;
     const [stickers, setStickers] = useState([]);
+    const [estaCargando, setEstaCargando] = useState(true);
 
-    // Obtiene los stickers desde Firestore
-    const getStickers = async () => {
-        try {
-            const stickersRef = collection(database, 'stickers');
-            const dataDb = await getDocs(stickersRef);
-            const data = dataDb.docs.map((stickerDb) => {
-                return { id: stickerDb.id, ...stickerDb.data() }
-            })
-            setStickers(data);
-        } catch (error) {
-            console.log(error);
-        }
-    };
-    getStickers();
+    useEffect(() => {
+        const getStickers = async () => {
+            setEstaCargando(true);
+            try {
+                const stickersRef = collection(database, 'stickers');
+                const dataDb = await getDocs(stickersRef);
+                const data = dataDb.docs.map((stickerDb) => ({ id: stickerDb.id, ...stickerDb.data() }));
+                setStickers(data);
+            } catch (error) {
+                console.log(error);
+            } finally {
+                setEstaCargando(false);
+            }
+        };
+
+        getStickers();
+        setPaginaActual(1)
+    }, [categoriaSeleccionada]); // si quieres recargar al cambiar categoría, añade [categoriaSeleccionada] según tu lógica
 
     // Cada vez que cambia la categoría, volvemos a la página 1
-    useEffect(() => {
-        setPaginaActual(1);
-    }, [categoriaSeleccionada]);
+    // useEffect(() => {
+    //     setPaginaActual(1);
+    // }, [categoriaSeleccionada]);
 
     // Filtrar los stickers según la categoría seleccionada
     const stickersFiltrados = categoriaSeleccionada === 'Todas'
@@ -72,17 +78,23 @@ const ContainerCard = ({ categoriaSeleccionada }) => {
 
     return (
         <>
-            <div className='container-card'>
-                {stickersPagina.map((sticker) => (
-                    <CardStickers key={sticker.id} sticker={sticker} />
-                ))}
-            </div>
+            {estaCargando ? (
+                <StickerSkeleton count={20} />
+            ) : (
+                <>
+                    <div className='container-card'>
+                        {stickersPagina.map((sticker) => (
+                            <CardStickers key={sticker.id} sticker={sticker} />
+                        ))}
+                    </div>
 
-            {/* Mostrar la paginación solo si hay más de una página */}
-            {totalPaginas > 1 && (
-                <div className='d-flex justify-content-center mt-4'>
-                    <Pagination>{itemsPaginacion}</Pagination>
-                </div>
+                    {/* Mostrar la paginación solo si hay más de una página */}
+                    {totalPaginas > 1 && (
+                        <div className='d-flex justify-content-center mt-4'>
+                            <Pagination>{itemsPaginacion}</Pagination>
+                        </div>
+                    )}
+                </>
             )}
         </>
     );

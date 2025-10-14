@@ -13,6 +13,7 @@
 
 import { useState } from "react";
 import Carrito from "../carrito/Carrito";
+import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import './drawercarrito.css';
 
 export default function DrawerCarrito() {
@@ -20,7 +21,7 @@ export default function DrawerCarrito() {
 
     return (
         <div>
-            <button className="btn-carrito" onClick={() => setIsOpen(true)} aria-label="Ver carrito">🛒</button>
+            <button className="btn-carrito" onClick={() => setIsOpen(true)} aria-label="Ver carrito"><ShoppingCartOutlinedIcon fontSize="large" /></button>
 
             {isOpen && (
                 <div className="drawer-overlay" onClick={() => setIsOpen(false)}>
