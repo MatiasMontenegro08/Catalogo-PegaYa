@@ -46,12 +46,7 @@ const ContainerCard = ({ categoriaSeleccionada }) => {
 
         getStickers();
         setPaginaActual(1)
-    }, [categoriaSeleccionada]); // si quieres recargar al cambiar categoría, añade [categoriaSeleccionada] según tu lógica
-
-    // Cada vez que cambia la categoría, volvemos a la página 1
-    // useEffect(() => {
-    //     setPaginaActual(1);
-    // }, [categoriaSeleccionada]);
+    }, [categoriaSeleccionada]); // Volver a cargar los stickers cuando cambie la categoría seleccionada
 
     // Filtrar los stickers según la categoría seleccionada
     const stickersFiltrados = categoriaSeleccionada === 'Todas'
